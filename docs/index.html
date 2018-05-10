@@ -6,8 +6,8 @@
 <script src="lib/jquery-3.1.1.min.js"></script>
 <script src="lib/semantic/semantic.min.js"></script>
 <script type="text/javascript"> 
-    $("#link").click(function(){
-        $("#include").load("include/test.html"); 
+    $("#page1").click(function(){
+        $("#pagediv").load("page1.html"); 
     });
 </script> 
 </head>
@@ -27,7 +27,7 @@
         <a class="item">Remove</a>
       </div>
     </div>
-    <div class="item active"  href="#">
+    <div class="item active" id='page1'  href="#">
       page 1
     </div>
     <a class="item" href="#">
@@ -37,13 +37,8 @@
         Click Test Link
     </a>
   </div>
-  <div class="pusher">
+  <div class="pusher" id="pagediv">
     <!-- Site content !-->
-<script type="text/javascript"> 
-            $("#link").click(function(){
-                $("#include").load("page1.html"); 
-            });
-        </script> 
   </div>
 </body>
 </html>
