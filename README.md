@@ -1,1 +1,1 @@
-# A collection of notes for CFA2 \n
+# A collection of notes for CFA2
