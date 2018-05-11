@@ -4,7 +4,7 @@
   Sidebar Button
 ---------------*/
 
-#example .fixed.launch.button {
+#template .fixed.launch.button {
     display: none;
     position: fixed;
     top: 2.5em;
