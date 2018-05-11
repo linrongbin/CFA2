@@ -35,12 +35,12 @@
       0.5s transform ease
     ;
   }
-  #example .launch.button .icon {
+  #template .launch.button .icon {
     margin-left: 0px;
   }
   
   
-  #example .fixed.launch.button .text {
+  #template .fixed.launch.button .text {
     position: absolute;
     white-space: nowrap;
     top: auto;
@@ -62,18 +62,18 @@
       0.3s opacity 0.3s
     ;
   }
-  #example .fixed.launch.button:hover {
+  #template .fixed.launch.button:hover {
     width: 130px;
   }
-  #example .fixed.launch.button:hover .text {
+  #template .fixed.launch.button:hover .text {
     opacity: 1;
   }
   
   /* Position Change */
-  #example.pushable.left.overlay .fixed.launch.button {
+  #template.pushable.left.overlay .fixed.launch.button {
     transform: translate3d(0, 0, 0);
   }
-  #example.pushable.overlay.left.pushed .fixed.launch.button {
+  #template.pushable.overlay.left.pushed .fixed.launch.button {
     transform: translate3d(260px, 0, 0);
   }
   
