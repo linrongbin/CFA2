@@ -7,7 +7,6 @@
 <script type="text/javascript"> 
 $(document).ready(function(){
     $("#page1").click(function(){
-        alert('clicked');
         $("#pagediv").load("page1.html"); 
     });
     $('.ui.sidebar').sidebar('toggle');
@@ -15,7 +14,7 @@ $(document).ready(function(){
 </script> 
 </head>
 <body>
-  <div class="ui sidebar inverted pointing vertical menu">
+  <div class="ui sidebar inverted left overlay vertical menu">   
     <div class="item">
       <div class="ui inverted header">
       <i class="book icon"></i>
@@ -40,6 +39,10 @@ $(document).ready(function(){
         Click Test Link
     </a>
   </div>
+  <div class="ui black big launch right attached fixed button">
+    <i class="content icon"></i>
+    <span class="text">Menu</span>
+    </div>
   <div class="pusher" id="pagediv">
     <!-- Site content !-->
   </div>
