@@ -5,7 +5,7 @@
 ---------------*/
 
 #template .fixed.launch.button {
-    display: none;
+    display: block;
     position: fixed;
     top: 2.5em;
     left: 0px;
